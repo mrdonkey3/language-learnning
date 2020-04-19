@@ -1,0 +1,6 @@
+rootProject.name = 'languagelearnning'
+include 'bigtalkdesignpatterns'
+include 'thinkinginjava'
+include 'commonlibrary'
+include 'kotlininaction'
+
