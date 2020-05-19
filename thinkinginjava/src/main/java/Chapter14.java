@@ -29,7 +29,7 @@ public class Chapter14 {
                         System.out.println(pattern.matcher(method.toString()).replaceAll(""));
                     }
                 }
-               new ArrayList<String>().addAll()
+//               new ArrayList<String>().addAll();
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
