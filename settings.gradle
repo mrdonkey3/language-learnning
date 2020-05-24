@@ -1,4 +1,4 @@
-rootProject.name = 'languagelearnning'
+rootProject.name = 'language-learnning'
 include 'bigtalkdesignpatterns'
 include 'thinkinginjava'
 include 'commonlibrary'

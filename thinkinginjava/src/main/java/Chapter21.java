@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * @author mrdonkey
@@ -112,6 +113,12 @@ class CountDownLatchDemo {
 
     public static void main(String[] args) throws InterruptedException {
         ExecutorService exec = Executors.newCachedThreadPool();
+        exec.submit(new Callable<String>() {
+            @Override
+            public String call() throws Exception {
+                return null;
+            }
+        });
         //All must share a single CountDownLatch object;
         CountDownLatch latch = new CountDownLatch(SIZE);
         for (int i = 0; i < 10; i++)
