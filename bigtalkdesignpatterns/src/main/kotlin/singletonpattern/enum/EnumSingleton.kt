@@ -8,3 +8,4 @@ package singletonpattern.enum
 enum class EnumSingleton {
     INSTANCE
 }
+
